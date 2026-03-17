@@ -1,0 +1,93 @@
+export const suspectsData = [
+  {
+    id: 's1',
+    name: 'Evelyn Vance',
+    role: 'The Victim\'s Business Partner',
+    avatar: '👩‍💼',
+    personality: 'Cold, calculated, highly professional. Easily annoyed by incompetence. Very defensive about company finances.',
+    background: 'Co-founder of the tech startup with the victim. Recently, they had a huge argument about selling the company.',
+    motive: 'The victim was about to oust her from the board and take full control of their upcoming IPO.',
+    alibi: 'Claims she was at a late-night board meeting across town, but no one can verify she stayed the entire time.',
+    knowledge: 'Knows the victim had secret offshore accounts and was blackmailing someone else in the office.',
+    voice: { pitch: 1.2, rate: 1.1, type: 'female' },
+    relationshipToVictim: 'Business Partner and Co-founder'
+  },
+  {
+    id: 's2',
+    name: 'Julian Vance',
+    role: 'The Victim\'s Brother',
+    avatar: '👨‍🎨',
+    personality: 'Eccentric, emotional, deeply insecure. Plays the victim card often. Resents success.',
+    background: 'A struggling artist who relied financially on the victim. The victim recently cut him off entirely.',
+    motive: 'Desperate for money and inherited everything in the event of the victim\'s untimely death.',
+    alibi: 'Claims he was in his studio painting, listening to loud music. A neighbor complained about the noise at the time of the murder.',
+    knowledge: 'Knows the victim had a physical altercation with the head of security recently.',
+    voice: { pitch: 0.9, rate: 1.0, type: 'male' },
+    relationshipToVictim: 'Estranged Brother'
+  },
+  {
+    id: 's3',
+    name: 'Dr. Aris Thorne',
+    role: 'The Victim\'s Personal Physician',
+    avatar: '👨‍⚕️',
+    personality: 'Calm, detached, overly polite. Uses big medical words to sound superior. Sweats when asked direct questions.',
+    background: 'Has been treating the victim for a chronic condition, but secretly funneling experimental drugs to the black market.',
+    motive: 'The victim discovered the theft and threatened to report Dr. Thorne to the medical board, ruining his life.',
+    alibi: 'Claims he was on call at the hospital, but hospital records show he was off-site during the 2-hour window of the murder.',
+    knowledge: 'Knows exactly what time the victim died and that the weapon used required medical precision.',
+    voice: { pitch: 0.8, rate: 0.9, type: 'male' },
+    relationshipToVictim: 'Long-time Personal Doctor'
+  },
+  {
+    id: 's4',
+    name: 'Chloe Sterling',
+    role: 'Head of Security',
+    avatar: '👮‍♀️',
+    personality: 'Gruff, straightforward, suspicious of everyone. Uses military jargon.',
+    background: 'Former military intelligence, hired by the victim a year ago. She recently found out the victim was having her followed.',
+    motive: 'The victim was secretly gathering evidence to frame her for corporate espionage.',
+    alibi: 'Claims she was doing perimeter checks, but security logs show her badge accessed the executive floor 10 minutes before the murder.',
+    knowledge: 'Knows the exact blind spots in the camera system and that the killer used the fire escape.',
+    voice: { pitch: 0.8, rate: 1.0, type: 'female' },
+    relationshipToVictim: 'Head of Security'
+  },
+  {
+    id: 's5',
+    name: 'Leo Mercer',
+    role: 'The Rival CEO',
+    avatar: '🤵',
+    personality: 'Smug, charismatic, patronizing. Loves the sound of his own voice.',
+    background: 'CEO of a rival tech firm. Has been in a bitter patent dispute with the victim for years.',
+    motive: 'The victim\'s new product launch would have bankrupted Leo\'s company within weeks.',
+    alibi: 'Claims he was at an exclusive gala downtown. He has photos, but the metadata shows they were taken earlier in the evening.',
+    knowledge: 'Knows the victim was planning a hostile takeover and had hired private investigators.',
+    voice: { pitch: 1.0, rate: 1.2, type: 'male' },
+    relationshipToVictim: 'Business Rival'
+  },
+  {
+    id: 's6',
+    name: 'Sienna Blake',
+    role: 'The Disgruntled Intern',
+    avatar: '👩‍💻',
+    personality: 'Nervous, quick-talking, easily startled. Always carrying too many things.',
+    background: 'A brilliant programmer who actually wrote the core algorithm for the victim\'s new product. She was never given credit or pay.',
+    motive: 'Furious that the victim stole her life\'s work and threatened to blacklist her if she complained.',
+    alibi: 'Claims she was asleep in her apartment, but her laptop was actively compiling code on the company servers from the office network at the time of death.',
+    knowledge: 'Knows the victim kept a master USB drive with all the original source code hidden in a hollow book on his desk.',
+    voice: { pitch: 1.3, rate: 1.3, type: 'female' },
+    relationshipToVictim: 'Underpaid Protégé / Intern'
+  },
+  {
+    id: 's7',
+    name: 'Arthur Prowess',
+    role: 'The Butler / Personal Assistant',
+    avatar: '🕴️',
+    personality: 'Meticulous, observant, speaks in a calm monotone. Extremely loyal but harboring a dark secret.',
+    background: 'Served the victim for over 20 years. He knows every detail of the victim\'s private life.',
+    motive: 'The victim was planning to shut down the estate and leave Arthur with nothing but a small severance.',
+    alibi: 'Claims he was polishing the silver in the dining hall, but the silver was found dusty and untouched.',
+    knowledge: 'Knows about the guest who arrived late and left early without being seen.',
+    voice: { pitch: 0.7, rate: 0.8, type: 'male' },
+    relationshipToVictim: 'Loyal Service Staff of 20 years'
+  }
+];

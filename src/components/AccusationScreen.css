@@ -1,0 +1,92 @@
+.accusation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.accusation-card {
+  background-color: var(--bg-panel);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 2.5rem;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(239, 68, 68, 0.15);
+}
+
+.accusation-card h2 {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.suspect-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.accuse-suspect-card {
+  background-color: var(--bg-dark);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accuse-avatar {
+  font-size: 3rem;
+  background-color: var(--bg-card);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 2px solid var(--border);
+}
+
+.accuse-suspect-card h3 {
+  margin: 0 0 0.25rem 0;
+  color: var(--text-main);
+}
+
+.accuse-suspect-card p {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.accuse-suspect-card button {
+  width: 100%;
+}
+
+.cancel-btn {
+  background-color: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+.cancel-btn:hover {
+  background-color: var(--bg-card);
+  color: var(--text-main);
+}
+
+@media (max-width: 768px) {
+  .suspect-grid {
+    grid-template-columns: 1fr;
+  }
+}

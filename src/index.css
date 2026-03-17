@@ -1,0 +1,82 @@
+:root {
+  --bg-dark: #0f172a;
+  --bg-panel: #1e293b;
+  --bg-card: #334155;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --accent: #ef4444; /* Blood red accent */
+  --accent-hover: #b91c1c;
+  --primary: #3b82f6; /* Detective blue */
+  --primary-hover: #2563eb;
+  --border: #475569;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+button.primary {
+  background-color: var(--primary);
+  color: white;
+}
+button.primary:hover { background-color: var(--primary-hover); }
+
+button.danger {
+  background-color: var(--accent);
+  color: white;
+}
+button.danger:hover { background-color: var(--accent-hover); }
+
+input {
+  font-family: inherit;
+  border: 1px solid var(--border);
+  background: var(--bg-dark);
+  color: var(--text-main);
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+input:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: -1px;
+}
+
+.hover-speak {
+  text-decoration: underline dotted var(--text-muted);
+  cursor: help;
+  transition: color 0.2s ease;
+}
+
+.hover-speak:hover {
+  color: var(--primary);
+}
